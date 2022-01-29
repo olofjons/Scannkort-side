@@ -2,27 +2,38 @@
   font-family: sans-serif;
 }
 
-body{
-  background-color: #efefef;
+
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap') repeat scroll 0 0 rgba(0, 0, 0 , 0);
+
+body {
+  animation: scroll 100s linear infinite;
+  background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80"), #111111;
+}
+
+@keyframes scroll {
+   100%{
+    background-position:0px -3000px;
+  }
 }
 
 
 h1{
   font-size: 24px;
-  color:#400000;
+  color:white;
   text-align: center;
 }
 
 h2{
   font-size:16px;
-  color:#800000;
+  color: #ff7f7f;
   text-align: center;
 }
 
 
 div.p{
   font-size:14px;
-  color:#000000;
+  color:white;
+  font-family: 'Lobster', cursive;
 }
 
 div{
@@ -43,6 +54,7 @@ a{
   height: 10vh;
   padding-top: 2vh;
   padding-left: 4%;
+  color: white;
 }
 
 .navbar ul{
@@ -69,7 +81,6 @@ a{
   border-radius: 5%;
   border-color: white;
   transition: 0.3s;
-  color: white;
 }
 
 #totop{
