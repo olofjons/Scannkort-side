@@ -8,7 +8,7 @@ body{
 
 
 h1{
-  font-size: 4vw;
+  font-size: 16xp;
   color:#400000;
   text-align: center;
 }
@@ -16,6 +16,7 @@ h1{
 h2{
   font-size:3vw;
   color:#800000;
+  text-align: center;
 }
 
 h3{
@@ -30,8 +31,12 @@ div.p{
 }
 
 div{
-  padding-left: 22%;
-  padding-right: 30%;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+a{
+  align-content: center;
 }
 
 
@@ -70,10 +75,6 @@ div{
   color: white;
 }
 
-#how{
-    background-color: #efedea;
-}
-
 #totop{
   text-align: center;
 }
@@ -92,14 +93,4 @@ footer {
   background-color:#ff7f7f;
   color: white;
   padding: 4px;
-}
-
-@media (max-width: 858px){
-  img {
-    width:350px;
-    height:400px;
-      }
-  p{
-    font-size:3vW;
-      }
 }
